@@ -1,6 +1,6 @@
 import {options} from './utils/commander.js'
 import config from './utils/config.js';
-import { faker, Faker } from '@faker-js/faker';
+import { faker } from '@faker-js/faker';
 
 const users = []
 
@@ -20,5 +20,6 @@ for(let i=0; i<100; i++){
 
 console.log(users);
 
-// console.log(options);
-// console.log(config);
+console.log(options);
+
+console.log(config);
